@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;
+}
+
+.unordered-list {
+    background-color: blueviolet;
+}
+
+.flex-class {
+    display: flex;
+    justify-content: end;
+}

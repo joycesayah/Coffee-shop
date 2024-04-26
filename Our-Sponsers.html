@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<h3>hello from session 2</h3>
 <li> <a href="Hello_world.html">Home </a></li>
 
 <br>
@@ -17,15 +18,17 @@
         Thank you for believing in us and for your continued investment</p>
         <hr>
         <br>
-   <a href="https://www.cafenajjar.com/home"><img src="pictures/Cafe Najjar.jpg" alt="cafenajjar" width="200px" height="200px" style="align-items: center;"></a>
-   
-   <a href="https://cafeyounes.com/en-lb"> <img src="pictures/Cafe Youness.avif" alt="cafeyounes" style="vertical-align: text-top;"></a>
-
-   <a href="https://www.ddlebanon.com/" > <img src="pictures/Dunkin Donuts.jpg" alt="Dunkin"  width="20%" height="20%"  style="align-self: normal;"> </a>
-   
-   <a href="https://www.starbucks.com/"> <img src="pictures/Starbucks.jpg" alt="starbucks"  height="5%" width="15%" style="vertical-align: text-top;"> </a>
-
-   <a href="https://www.buynespresso.com/lb_en"> <img src="pictures/Nespresso" alt="Nespresso" height="20%" width="25%"></a>
+<div>
+    <a href="https://www.cafenajjar.com/home"><img src="pictures/Cafe Najjar.jpg" alt="cafenajjar" width="200px" height="200px" style="align-items: center;"></a>
+    
+    <a href="https://cafeyounes.com/en-lb"> <img src="pictures/Cafe Youness.avif" alt="cafeyounes" style="vertical-align: text-top;"></a>
+ 
+    <a href="https://www.ddlebanon.com/" > <img src="pictures/Dunkin Donuts.jpg" alt="Dunkin"  width="20%" height="20%"  style="align-self: normal;"> </a>
+    
+    <a href="https://www.starbucks.com/"> <img src="pictures/Starbucks.jpg" alt="starbucks"  height="5%" width="15%" style="vertical-align: text-top;"> </a>
+ 
+    <a href="https://www.buynespresso.com/lb_en"> <img src="pictures/Nespresso" alt="Nespresso" height="20%" width="25%"></a>
+</div>
 <div class="upper-class">
     <h1>Hi </h1>
     <h1>Hello </h1>
@@ -33,18 +36,32 @@
     </div>
     
     <div class="lower-class">
-    <h1>Hi </h1>
+    <div class="nested-lower-class">
+        <h1>Hi </h1>
+        <h1>Hi 2 </h1>
+    </div>
     <h1>Hello </h1>
-    <h2>Hello </h2>
+    <h3>Hello </h3>
     </div>
 </body>
 </html>
 
 <style>
+    body {
+        color: grey;
+    }
     .upper-class {
         background-color: green;
     }
     .lower-class {
         background-color: brown;
+    }
+    .nested-lower-class {
+        padding: 20px;
+        border-radius: 20px;
+        background-color: rgb(95, 15, 15);
+    }
+    h3 {
+        color: yellow;
     }
 </style>
