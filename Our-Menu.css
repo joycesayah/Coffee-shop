@@ -24,11 +24,11 @@ div.Main{
 ul,.prices{
     color: white;
     text-align: left;
-    padding-right:20%;
+    /* padding-right:20%; */
     margin-top:auto;
 }
  div.prices{
-    position:absolute; bottom: 300px; left: 13%;
+    /* position:absolute; bottom: 300px; left: 13%; */
 }
 
 div.colum {
@@ -47,13 +47,13 @@ text-align: left;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:x-large;
     text-align:center;
     border-radius: 8px;
-    position: absolute; bottom: 150px; left: 65%;  
+    /* position: absolute; bottom: 150px; left: 65%;  */
 }
   
 
   div.prices2{
     color: white;
-    position:absolute; top: 86%; left: 73%
+    /* position:absolute; top: 86%; left: 73% */
 }
 
 div.row{
@@ -76,14 +76,30 @@ div.Food {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:x-large;
     border-radius: 58px;
     text-align:center;justify-self: auto;
-    position: absolute;top:1420px;:right:80%;
+    /* position: absolute;top:1420px;right:80%; */
 }
 
 .prices3 {
     color:white;
-    position:absolute; top: 1482px; left: 11%;}
-    
+    /* position:absolute; top: 1482px; left: 11%; */
+}
 
+.main-menu-parent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.main-menu-left {
+    width: 100%;
+}
+.main-menu-right {
+    background-color: rgba(233, 90, 7, 0.851);
+    width: 100%;
+}
+li {
+    list-style: none;
+}
 
 
 
