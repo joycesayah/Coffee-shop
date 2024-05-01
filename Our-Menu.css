@@ -1,0 +1,93 @@
+body {
+        background-color:rgba(7, 6, 6, 0.849); color: white;
+
+
+        
+}
+
+h1,h3 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.Main{
+    color: black; 
+    background-color: rgba(233, 90, 7, 0.851);
+    width: 180px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: large;
+    text-align: justify;
+    border-radius: 8px;
+    padding-left: 3%;
+    padding-right: 3%;}
+
+ul,.prices{
+    color: white;
+    text-align: left;
+    padding-right:20%;
+    margin-top:auto;
+}
+ div.prices{
+    position:absolute; bottom: 300px; left: 13%;
+}
+
+div.colum {
+text-align: left;
+}
+ .inner {
+    color:white;
+    position: relative;bottom: 680px;left: 80%;
+    font-size: medium;
+  }
+  div.APPETIZERS { 
+    color: black; 
+    background-color:  rgba(233, 90, 7, 0.851);
+    width: 180px;
+    height: fit-content;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:x-large;
+    text-align:center;
+    border-radius: 8px;
+    position: absolute; bottom: 150px; left: 65%;  
+}
+  
+
+  div.prices2{
+    color: white;
+    position:absolute; top: 86%; left: 73%
+}
+
+div.row{
+    text-align: right;
+    height: fit-content;
+    background-color:rgba(233, 90, 7, 0.851);
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+}
+img {
+    border-radius: 70%;
+    size: 15%;
+    align-items:colum;}
+
+div.Food {
+    color: black; 
+    background-color:  rgba(233, 90, 7, 0.851);
+    width: 200px;
+    height:fit-content;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:x-large;
+    border-radius: 58px;
+    text-align:center;justify-self: auto;
+    position: absolute;top:1420px;:right:80%;
+}
+
+.prices3 {
+    color:white;
+    position:absolute; top: 1482px; left: 11%;}
+    
+
+
+
+
+
+
+
+
