@@ -29,6 +29,13 @@ img{
     font-size: larger;
     padding-left: 5%;
 }
+@media only screen and (max-width: 950px) {
+    .main-menu-parent {
+        display: flex;
+        flex-direction: column;
+        /* flex-flow: column-reverse; */
+    }
+  }
 .main-menu-right {
     background-color: rgba(233, 90, 7, 0.851);
     width: 100%;
@@ -39,12 +46,11 @@ img{
 li{
     list-style: none;
 }
-.main-menu-parent2 {
+.ul-prices-flex {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    align-items:center;
+    gap: 100px;
 }
+
 .main-menu-left2 {
     width: 100%;
     font-size: larger;
@@ -57,12 +63,6 @@ li{
     border-bottom-right-radius: 1000px;
     text-align: right;}
 
-.main-menu-parent3 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    align-items:center;
-}
 .main-menu-left3 {
     width: 100%;
     font-size: larger;
