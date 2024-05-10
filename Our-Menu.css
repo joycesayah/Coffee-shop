@@ -32,9 +32,9 @@ img{
 @media only screen and (max-width: 950px) {
     .main-menu-parent {
         display: flex;
-        flex-direction: column;
-        /* flex-flow: column-reverse; */
-    }
+       flex-direction: column;
+        /*flex-flow: column-reverse;*/}
+
   }
 .main-menu-right {
     background-color: rgba(233, 90, 7, 0.851);
@@ -42,8 +42,8 @@ img{
     border-top-left-radius: 2000px;
     border-bottom-left-radius:2000px;
 
-}
-li{
+    
+}media{
     list-style: none;
 }
 .ul-prices-flex {
