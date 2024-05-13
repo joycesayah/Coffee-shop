@@ -1,6 +1,6 @@
 body{
       font-family: "Great Vibes", cursive;
-      display: flex;
+      /* display: flex; */
       }
       
    .Main{
@@ -10,19 +10,6 @@ body{
        margin-right:1%;
        margin-top:3%;}
      
-        
-      @media screen and (max-width: 600px) {
-        .Main {
-          display: flex;
-          flex-direction:column;
-          justify-content: space-evenly;
-          background-color: blueviolet;
-          width:100%;
-          margin: 0%;;
-        }
-          
-        }
-        
     .first-line{
       margin-left:120%;
       font-weight:600px;
@@ -75,3 +62,42 @@ body{
      .space::first-letter{
       margin-right:1%;
      }
+
+
+     .main-mobile {
+      display:none
+     }
+
+     .second-main-mobile {
+      display: none;
+     }
+
+     @media screen and (max-width: 600px) {
+      .Main {
+        display: none;
+        /* display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        background-color: blueviolet;
+        width:100%;
+        margin: 0%; */
+      }
+      .main-mobile {
+        margin-right: 30%;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+       }
+       .second-main-mobile {
+        margin-right: 30%;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+        
+      }
